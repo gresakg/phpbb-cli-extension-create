@@ -98,7 +98,6 @@ class create extends \phpbb\console\command\command {
     protected function set_arguments($input) {
         $this->extensionName = $input->getArgument('extension-name');
         if(empty($this->extensionName)) {
-            var_dump($input->getArguments());
             throw new \Exception("The extension-name argument is required!");
         }
         $this->namespace = $input->getArgument('namespace');
