@@ -1,0 +1,8 @@
+services:
+    gresnet.extension.command.create:
+        class: gresnet\extension\command\create
+        arguments:
+            - @user
+            - @config
+        tags:
+            - { name: console.command }
