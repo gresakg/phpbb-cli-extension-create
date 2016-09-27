@@ -66,7 +66,7 @@ class create extends \phpbb\console\command\command {
     
     protected function create_composer_json() {
         $json = '{
-	"name": "'.$this->namespace.'/'. $this->extenisonName. '",
+	"name": "'.$this->namespace.'/'. $this->extensionName. '",
 	"type": "phpbb-extension",
 	"description": "",
 	"homepage": "http://gresak.net/phpbb",
