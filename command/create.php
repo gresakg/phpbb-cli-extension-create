@@ -85,7 +85,7 @@ class create extends \phpbb\console\command\command {
 		"composer/installers": "~1.0"
 	},
 	"extra": {
-		"display-name": "'.$this->extnesionDisplayName.'",
+		"display-name": "'.$this->extensionDisplayName.'",
 		"soft-require": {
 			"phpbb/phpbb": ">=3.1.0"
 		}
